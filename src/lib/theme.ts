@@ -2,7 +2,7 @@ import { Dimensions } from "react-native";
 
 const { width } = Dimensions.get("screen");
 
-const maxVisibleItems = 2; // this is 0.5 - 1 - 0.5 combo
+const maxVisibleItems = 5; // this is 0.5 - 1 - 0.5 combo
 
 export const layout = {
   spacing: 8,
